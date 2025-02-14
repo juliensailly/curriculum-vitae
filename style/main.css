@@ -1,2 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+    --color-primary: #002935;
+    --color-background: #E7FAFF;
+    /* --default-font-family: 'Inter', sans-serif; */
+}
+
+.resume {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+    /* padding: 20mm; */
+    padding: 10mm;
+}
