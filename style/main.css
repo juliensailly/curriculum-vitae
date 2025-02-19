@@ -3,6 +3,7 @@
 @theme {
     --color-primary: #002935;
     --color-background: #E7FAFF;
+    --text-1.5xl: 1.25rem;
     /* --default-font-family: 'Inter', sans-serif; */
 }
 
@@ -11,4 +12,17 @@
     height: 297mm;
     margin: auto;
     @apply p-10;
+}
+
+.timeline-element::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 50%;
+    z-index: 1;
 }
