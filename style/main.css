@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import "tailwindcss";
 
 html {
@@ -5,10 +6,11 @@ html {
 }
 
 @theme {
-    --color-primary: #002935;
-    --color-background: #E7FAFF;
+    /* --color-primary: #002935;
+    --color-background: #E7FAFF; */
+    --color-primary: #003016;
+    --color-background: #DEFFED;
     --text-1.5xl: 1.25rem;
-    /* --default-font-family: 'Inter', sans-serif; */
 }
 
 .resume {
@@ -30,4 +32,8 @@ html {
     border: black solid 1px;
     border-radius: 50%;
     z-index: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lexend', sans-serif;
 }
