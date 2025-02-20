@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+    font-size: 14px;
+}
+
 @theme {
     --color-primary: #002935;
     --color-background: #E7FAFF;
@@ -9,15 +13,16 @@
 
 .resume {
     width: 210mm;
-    /* height: 297mm; */
+    height: 297mm;
     margin: auto;
-    @apply p-10;
+    /* padding: 6.5mm; */
+    @apply p-8;
 }
 
 .timeline-element::before {
     content: '';
     position: absolute;
-    left: -25px;
+    left: -23px;
     top: 8px;
     width: 14px;
     height: 14px;
