@@ -28,8 +28,8 @@ html {
     top: 8px;
     width: 14px;
     height: 14px;
-    background-color: white;
-    border: black solid 1px;
+    background-color: var(--color-background);
+    border: var(--color-primary) solid 1px;
     border-radius: 50%;
     z-index: 1;
 }
