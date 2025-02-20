@@ -9,7 +9,7 @@
 
 .resume {
     width: 210mm;
-    height: 297mm;
+    /* height: 297mm; */
     margin: auto;
     @apply p-10;
 }
@@ -17,10 +17,10 @@
 .timeline-element::before {
     content: '';
     position: absolute;
-    left: -5px;
-    top: -5px;
-    width: 15px;
-    height: 15px;
+    left: -25px;
+    top: 8px;
+    width: 14px;
+    height: 14px;
     background-color: white;
     border: black solid 1px;
     border-radius: 50%;
