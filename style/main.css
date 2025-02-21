@@ -5,6 +5,14 @@ html {
     font-size: 14px;
 }
 
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 200,
+  'opsz' 24
+}
+
 @theme {
     /* --color-primary: #002935;
     --color-background: #E7FAFF; */
