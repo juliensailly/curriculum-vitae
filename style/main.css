@@ -1,53 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 @import "tailwindcss";
 
 html {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .material-symbols-rounded {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 200,
-  'GRAD' 200,
-  'opsz' 24
+    "FILL" 0,
+    "wght" 200,
+    "GRAD" 200,
+    "opsz" 24;
 }
 
 @theme {
-    /* --color-primary: #002935;
+  /* --color-primary: #002935;
     --color-background: #E7FAFF; */
-    --color-primary: #003016;
-    --color-background: #DEFFED;
-    --text-1.5xl: 1.25rem;
+  --color-primary: #003016;
+  --color-background: #deffed;
+  --text-1.5xl: 1.25rem;
+  --text-1.75xl: 1.4rem;
 }
 
 .resume {
-    width: 210mm;
-    height: 297mm;
-    margin: auto;
-    /* padding: 6.5mm; */
-    @apply p-8;
+  width: 210mm;
+  height: 297mm;
+  margin: auto;
+  /* padding: 6.5mm; */
+  @apply p-8;
 }
 
 .timeline-element::before {
-    content: '';
-    position: absolute;
-    left: -28px;
-    top: 0px;
-    width: 25px;
-    height: 25px;
-    background-color: var(--color-background);
-    border: var(--color-background) solid 5px;
-    box-shadow:
-    inset 0 0 0 2px var(--color-primary);
-    border-radius: 50%;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  left: -28px;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-background);
+  border: var(--color-background) solid 5px;
+  box-shadow: inset 0 0 0 2px var(--color-primary);
+  border-radius: 50%;
+  z-index: 1;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lexend', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lexend", sans-serif;
 }
 
 .contact-links {
-    box-shadow: 2px 2px 0px var(--color-primary);
+  box-shadow: 2px 2px 0px var(--color-primary);
 }
