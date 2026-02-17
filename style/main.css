@@ -1,18 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 @import "tailwindcss";
 
-html {
-  font-size: 14px;
-}
-
-.material-symbols-rounded {
-  font-variation-settings:
-    "FILL" 0,
-    "wght" 200,
-    "GRAD" 200,
-    "opsz" 24;
-}
-
 @theme {
   /* --color-primary: #002935;
     --color-background: #E7FAFF; */
@@ -20,6 +8,25 @@ html {
   --color-background: #deffed;
   --text-1.5xl: 1.25rem;
   --text-1.75xl: 1.4rem;
+}
+
+html {
+  font-size: 14px;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 500,
+    "GRAD" 0,
+    "opsz" 24;
+}
+
+.material-symbols-rounded.icon-small {
+  position: relative;
+  top: 4px;
+  left: 2px;
+  font-size: 18px;
 }
 
 .resume {
