@@ -26,7 +26,6 @@ html {
   width: 210mm;
   height: 297mm;
   margin: auto;
-  /* padding: 6.5mm; */
   @apply p-8;
 }
 
